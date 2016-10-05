@@ -1,21 +1,24 @@
 .body {
-	background-image: url("../images/pink_rice.png");
+	
 	background-color:#ffffff;
 	border-color: #dddddd;
 }
 
 .container{
+	background-image: url(../images/pink_rice.png);
 	max-width: 960px;
-	margin:0 auto;
-}
+	margin:50px auto;
+	}
 
-.main-header {
+.mainheader {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	background color: #ffffff;
-	border-color: #cccccc;
-	max-width: 650px;
-	border-width: 100px;
+	color: #ffffff;
+	background color: #4aaaa5;
+	border:solid;
+	border-color: #4aaaa5;
+	float: left;
+	margin-left: 100px;
+	
 }
 
 .navigation{
@@ -24,7 +27,7 @@
 	background-color:#ffffff;
 	border-color: #dddddd;
 	float: right;
-	max-width: 650px;
+	margin-right: 10px;
 
 }
 
@@ -33,8 +36,14 @@
 	color: #777777;
 	background-color:#ffffff;
 	border-color: #dddddd;
-	max-width: 270px;
 	float: right;
+	text-align: center;
+	max-width: 270px;
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+
 }
 
 .images {
@@ -46,8 +55,14 @@
 	color: #777777;
 	background-color:#ffffff;
 	border-color: #dddddd;
-	float: none;
-	max-width: 50px;
+	max-width: 650px;
+	margin-left: 20px;
+	
+}
+
+.title {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
 
 .text{
@@ -56,12 +71,17 @@
 	background-color:#ffffff;
 	border-color: #dddddd;
 	max-width: 650px;
+	float clear: both;
+	margin-left: 20px;
 }
 .footer {
 	float:none;
 	width:960px;
 	background-color: #666666;
-	border
+	margin-top: 25px;
+	border:solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
 }
 
 
